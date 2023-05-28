@@ -3,8 +3,10 @@ module go_chat
 go 1.20
 
 require (
+	github.com/gin-gonic/gin v1.9.0
 	github.com/go-ini/ini v1.67.0
 	github.com/go-redis/redis v6.15.9+incompatible
+	github.com/jinzhu/gorm v1.9.16
 	github.com/sirupsen/logrus v1.9.2
 	go.mongodb.org/mongo-driver v1.11.6
 )
@@ -13,7 +15,6 @@ require (
 	github.com/bytedance/sonic v1.8.0 // indirect
 	github.com/chenzhuoyu/base64x v0.0.0-20221115062448-fe3a3abad311 // indirect
 	github.com/gin-contrib/sse v0.1.0 // indirect
-	github.com/gin-gonic/gin v1.9.0 // indirect
 	github.com/go-playground/locales v0.14.1 // indirect
 	github.com/go-playground/universal-translator v0.18.1 // indirect
 	github.com/go-playground/validator/v10 v10.11.2 // indirect
@@ -21,7 +22,6 @@ require (
 	github.com/goccy/go-json v0.10.0 // indirect
 	github.com/golang/snappy v0.0.1 // indirect
 	github.com/google/go-cmp v0.5.9 // indirect
-	github.com/jinzhu/gorm v1.9.16 // indirect
 	github.com/jinzhu/inflection v1.0.0 // indirect
 	github.com/json-iterator/go v1.1.12 // indirect
 	github.com/klauspost/compress v1.13.6 // indirect

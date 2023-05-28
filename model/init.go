@@ -24,5 +24,5 @@ func Database(conn string) {
 	db.DB().SetMaxIdleConns(20)  // 设置连接池
 	db.DB().SetMaxOpenConns(100) // 最大连接数
 	DB = db
-	migration()
+	//migration()
 }
